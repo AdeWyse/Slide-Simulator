@@ -213,9 +213,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 5
   m_WholeNumbers: 1
-  m_Value: 70
+  m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -486,7 +486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.9138031, y: -53.34912}
+  m_AnchoredPosition: {x: 0.91381836, y: -53.34912}
   m_SizeDelta: {x: -20.1053, y: -131.5998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8988663285744577214
@@ -545,7 +545,7 @@ MonoBehaviour:
     itensCount: 2
   imageSlider: {fileID: 7868743639762043696}
   textSlider: {fileID: 7608002711610647754}
-  itenSlider: {fileID: 0}
+  itenSlider: {fileID: 5668121963127033275}
 --- !u!1 &4304924440016233910
 GameObject:
   m_ObjectHideFlags: 0

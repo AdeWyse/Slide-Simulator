@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Status.cs" />
+    <Compile Include="Assets\Scripts\LibraryControl.cs" />
+    <Compile Include="Assets\Scripts\Delete.cs" />
+    <Compile Include="Assets\Scripts\Dragable.cs" />
     <Compile Include="Assets\Scripts\StatusControl.cs" />
   </ItemGroup>
   <ItemGroup>

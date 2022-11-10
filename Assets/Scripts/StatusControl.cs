@@ -12,13 +12,14 @@ public class StatusControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        statusToControl = new Status(0, 0, 0);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         NotNegative();
+        NotTooMuch();
         SetSliderPos();
     }
 
@@ -36,6 +37,23 @@ public class StatusControl : MonoBehaviour
         if (statusToControl.itensCount < 0)
         {
             statusToControl.itensCount = 0;
+        }
+    }
+
+    public void NotTooMuch()
+    {
+
+        if (statusToControl.textCount > 100)
+        {
+            statusToControl.textCount = 100;
+        }
+        if (statusToControl.imageCount > 100)
+        {
+            statusToControl.imageCount = 100;
+        }
+        if (statusToControl.itensCount > 5)
+        {
+            statusToControl.itensCount = 5;
         }
     }
 
