@@ -6,6 +6,8 @@ public class LibraryControl : MonoBehaviour
 {
     public GameObject openButton;
     public GameObject closeButton;
+
+    public List<GameObject> itenPrefabs;
     // Start is called before the first frame update
     void Start()
     {

@@ -30,6 +30,7 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         {
             item.SetActive(false);
             icon.SetActive(true);
+            icon.GetComponent<IconSize>().Resize();
         }  
         
 
