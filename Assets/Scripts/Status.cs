@@ -15,4 +15,11 @@ public class Status
         this.imageCount = imageCount;
         this.itensCount = itensCount;
     }
+
+    public void ChangeValues(int textCount, int imageCount, int itensCount)
+    {
+        this.textCount = textCount;
+        this.imageCount = imageCount;
+        this.itensCount = itensCount;
+    }
 }

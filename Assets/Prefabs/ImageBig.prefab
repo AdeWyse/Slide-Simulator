@@ -272,6 +272,7 @@ MonoBehaviour:
   item: {fileID: 6198263275648329323}
   icon: {fileID: 6198263276415419792}
   onList: 1
+  status: {fileID: 8308152795662028375}
 --- !u!61 &6198263275877807340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -504,6 +505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Status
       objectReference: {fileID: 0}
+    - target: {fileID: 2686638447102157911, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
+      propertyPath: m_TagString
+      value: components
+      objectReference: {fileID: 0}
     - target: {fileID: 2829908510957645747, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -629,5 +634,10 @@ PrefabInstance:
 --- !u!224 &937612464126354574 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6559411551911939726, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
+  m_PrefabInstance: {fileID: 6198263276069251584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8308152795662028375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2686638447102157911, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
   m_PrefabInstance: {fileID: 6198263276069251584}
   m_PrefabAsset: {fileID: 0}

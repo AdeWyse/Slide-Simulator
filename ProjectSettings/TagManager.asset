@@ -8,6 +8,9 @@ TagManager:
   - Background
   - Image
   - ImageBig
+  - goal
+  - status
+  - components
   layers:
   - Default
   - TransparentFX

@@ -14,7 +14,7 @@ public class IconSize : MonoBehaviour
     {
         size = new Vector2(227.96f, 176.38f);
         sizeBig = new Vector2(435.2278f, 321.2397f);
-        sizeGiant = new Vector2(164.5913f, 192.8105f);
+        sizeGiant = new Vector2(500f, 400f);
         sizeTitle = new Vector2(331.8695f, 30.7742f);
 }
 

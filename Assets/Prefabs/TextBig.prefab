@@ -365,6 +365,7 @@ MonoBehaviour:
   item: {fileID: 7943116006082587708}
   icon: {fileID: 7943116005126294149}
   onList: 1
+  status: {fileID: 5436766703036147462}
 --- !u!61 &7943116006488236435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -401,6 +402,10 @@ PrefabInstance:
     - target: {fileID: 2686638447102157911, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
       propertyPath: m_Name
       value: Status
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686638447102157911, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
+      propertyPath: m_TagString
+      value: components
       objectReference: {fileID: 0}
     - target: {fileID: 2829908510957645747, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -529,6 +534,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6559411551911939726, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
   m_PrefabInstance: {fileID: 7943116005713789777}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5436766703036147462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2686638447102157911, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
+  m_PrefabInstance: {fileID: 7943116005713789777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7943116006212549605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -539,6 +549,10 @@ PrefabInstance:
     - target: {fileID: 7178489264776892026, guid: ddb0717f4eed49f41845faa9c70188de, type: 3}
       propertyPath: m_Name
       value: TextImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178489264776892026, guid: ddb0717f4eed49f41845faa9c70188de, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7178489264776892027, guid: ddb0717f4eed49f41845faa9c70188de, type: 3}
       propertyPath: m_Pivot.x

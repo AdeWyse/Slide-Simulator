@@ -124,6 +124,7 @@ MonoBehaviour:
   item: {fileID: 6301916196844609014}
   icon: {fileID: 6301916196777331418}
   onList: 1
+  status: {fileID: 8231520236303246592}
 --- !u!1 &6301916196777331418
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Status
       objectReference: {fileID: 0}
+    - target: {fileID: 2686638447102157911, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
+      propertyPath: m_TagString
+      value: components
+      objectReference: {fileID: 0}
     - target: {fileID: 2829908510957645747, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -527,6 +532,11 @@ PrefabInstance:
 --- !u!224 &897150264982310873 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6559411551911939726, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
+  m_PrefabInstance: {fileID: 6301916196239638871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8231520236303246592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2686638447102157911, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
   m_PrefabInstance: {fileID: 6301916196239638871}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6301916197225403158

@@ -261,6 +261,7 @@ MonoBehaviour:
   item: {fileID: 3964793201081098098}
   icon: {fileID: 3964793201080500214}
   onList: 1
+  status: {fileID: 1318742177809439289}
 --- !u!1 &3964793201080500214
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,6 +507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Status
       objectReference: {fileID: 0}
+    - target: {fileID: 2686638447102157911, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
+      propertyPath: m_TagString
+      value: components
+      objectReference: {fileID: 0}
     - target: {fileID: 2829908510957645747, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -628,6 +633,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
+--- !u!1 &1318742177809439289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2686638447102157911, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}
+  m_PrefabInstance: {fileID: 3964793201071914606}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &7782906686930972896 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6559411551911939726, guid: 45f5e651e14839340a1c73271e932a8e, type: 3}

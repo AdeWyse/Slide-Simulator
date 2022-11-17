@@ -15,6 +15,8 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public GameObject icon;
     public Boolean onList = true;
 
+    public GameObject status;
+
     private void Start()
     {
         icon.SetActive(false);
@@ -28,7 +30,8 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         ismoving = true;
         if (onList)
         {
-            item.SetActive(false);
+            status.GetComponent<StatusControl>().insideSlide = true;
+            item.transform.localScale = new Vector3(0, 0, 0);
             icon.SetActive(true);
             icon.GetComponent<IconSize>().Resize();
         }  

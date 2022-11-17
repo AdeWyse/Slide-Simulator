@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,10 +10,12 @@ public class StatusControl : MonoBehaviour
     public Slider imageSlider;
     public Slider textSlider;
     public Slider itenSlider;
+
+    public Boolean insideSlide;
     // Start is called before the first frame update
     void Start()
     {
-        
+        insideSlide = false;
     }
 
     // Update is called once per frame
