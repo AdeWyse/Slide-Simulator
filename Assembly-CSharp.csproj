@@ -57,12 +57,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Status.cs" />
+    <Compile Include="Assets\Scripts\SetUp.cs" />
     <Compile Include="Assets\Scripts\IconSize.cs" />
     <Compile Include="Assets\Scripts\LibraryControl.cs" />
+    <Compile Include="Assets\Scripts\ControlUI.cs" />
     <Compile Include="Assets\Scripts\Delete.cs" />
     <Compile Include="Assets\Scripts\Dragable.cs" />
     <Compile Include="Assets\Scripts\StatusControl.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\SlideControl.cs" />
+    <Compile Include="Assets\Scripts\Goal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

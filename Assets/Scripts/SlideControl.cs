@@ -21,7 +21,8 @@ public class SlideControl : MonoBehaviour
     {
         
         goalObj = GameObject.FindGameObjectWithTag("goal");
-        goal = new Status(100, 100, 5);//Implementar recuperar infomrção da historia
+        goal = this.GetComponentInChildren<Goal>().status;
+        Debug.Log(goal.textCount + goal.imageCount +goal.itensCount);
         atual = new Status(0, 0, 0);
         goalObj.GetComponent<StatusControl>().statusToControl = goal;
         statusAtualObj.GetComponent<StatusControl>().statusToControl = atual;
