@@ -13,12 +13,6 @@ public class SetUp : MonoBehaviour
         DontDestroyOnLoad(this);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void SetHistoriaParque()
     {
         historia = 1;

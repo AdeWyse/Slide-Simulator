@@ -845,6 +845,7 @@ MonoBehaviour:
   slidePanel: {fileID: 6980592805493493741, guid: 1aede2e6ba1d9c54f8d1b475aba6ead5, type: 3}
   hourCount: 0
   quantityOfSlides: 0
+  typeSlide: 0
 --- !u!4 &1080878464
 Transform:
   m_ObjectHideFlags: 0
@@ -897,8 +898,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -63.14139, y: -2.9532}
-  m_SizeDelta: {x: 105.4857, y: 18.9469}
+  m_AnchoredPosition: {x: -41.702366, y: -2.9532013}
+  m_SizeDelta: {x: 138.4778, y: 18.9469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1194342189
 MonoBehaviour:
@@ -1494,7 +1495,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 3
+  m_Spacing: 0.2
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -1515,7 +1516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalFit: 1
-  m_VerticalFit: 1
+  m_VerticalFit: 2
 --- !u!1 &2126799270
 GameObject:
   m_ObjectHideFlags: 0

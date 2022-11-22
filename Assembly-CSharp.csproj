@@ -64,9 +64,10 @@
     <Compile Include="Assets\Scripts\Delete.cs" />
     <Compile Include="Assets\Scripts\Dragable.cs" />
     <Compile Include="Assets\Scripts\StatusControl.cs" />
+    <Compile Include="Assets\Scripts\Goal.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\SlideControl.cs" />
-    <Compile Include="Assets\Scripts\Goal.cs" />
+    <Compile Include="Assets\Scripts\CountStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -14,12 +14,6 @@ public class LibraryControl : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Open()
     {
         openButton.SetActive(false);

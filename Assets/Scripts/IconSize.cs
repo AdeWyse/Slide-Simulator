@@ -18,12 +18,6 @@ public class IconSize : MonoBehaviour
         sizeTitle = new Vector2(331.8695f, 30.7742f);
 }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Resize()
     {
         string nome = this.gameObject.name;

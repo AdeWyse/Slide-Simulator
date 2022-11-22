@@ -12,6 +12,7 @@ public class Goal : MonoBehaviour
     void Start()
     {
         gm = GameObject.Find("GameController").GetComponent<GameController>();
+        type = gm.typeSlide;
         SetGoals();
     }
 
@@ -32,6 +33,7 @@ public class Goal : MonoBehaviour
                 setJornal();
                 break;
             default:
+                setSafe();
                 break;
         }
     }

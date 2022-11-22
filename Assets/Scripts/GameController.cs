@@ -29,6 +29,7 @@ public class GameController : MonoBehaviour
         GetHourCount();
         CalculateNumberOfSLides();
         CreateSlides();
+        SetGoals();
     }
 
     // Update is called once per frame

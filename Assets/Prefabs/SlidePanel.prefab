@@ -544,6 +544,8 @@ MonoBehaviour:
     textCount: 0
     imageCount: 0
     itensCount: 0
+  start: 0
+  libraryOpen: {fileID: 6980592803578320474}
 --- !u!1 &6980592803983435211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1991,8 +1993,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 0}
-  goal: {fileID: 5019498478186244921}
   type: 0
+  status:
+    textCount: 0
+    imageCount: 0
+    itensCount: 0
 --- !u!1001 &6980592804374059656
 PrefabInstance:
   m_ObjectHideFlags: 0
